@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.ColorWhite{
+  color: WHITE;
+}
+@font-face {
+    font-family: baloo;
+    src: url(../fonts/baloo.ttf);
+}
+h1{
+
+  position: absolute;
+  left: 13%;
+  top:  -1%;
+  font-family:baloo;
+  font-size: 6.6rem
+
+}
+h2{
+  font-family:baloo;
+  font-size: 45px;
+  position: absolute;
+  left: 22%;
+  top:  25%;
+  transform: translateX(-50%) translateY(-50%);
+}
+ul{
+
+  font-family:baloo;
+  font-size: 1.8rem;
+  position: absolute;
+  left: 24%;
+  top:  50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+img{
+  height: 680px;
+  width: auto;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+  position: absolute;
+  right: 16%;
+  top:  12%;
+}
+.link{
+  color: WHITE;
+  font-family:baloo;
+  font-size: 1.3rem;
+  position: absolute;
+  position: absolute;
+  left: 35%;
+  top:  165%;
+  transform: translateX(-50%) translateY(-50%);
+}
+p{
+  font-family:baloo;
+  font-size: 45px;
+  position: absolute;
+  left: 22%;
+  top:  82%;
+  transform: translateX(-50%) translateY(-50%);
+
+}
+#Receta{
+  font-family:baloo;
+  font-size: 1.3rem;
+  position: absolute;
+  left: 43%;
+  top:  125%;
+  transform: translateX(-50%) translateY(-50%);
+}
+#descarga{
+font-family:baloo;
+font-size: 1.3rem;
+position: absolute;
+left: 19%;
+top:  165%;
+transform: translateX(-50%) translateY(-50%);
+}
+#Video{
+  height: 720px;
+  width: 1024px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60%;
+  transform:translateY(50%);
+
+}
+#Maps {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  transform:translateY(50%);
+}
+#Lugar{
+font-family:baloo;
+font-size: 1.4rem;
+position: absolute;
+left: 25%;
+top:  260%;
+transform: translateX(-50%) translateY(-50%);
+}
